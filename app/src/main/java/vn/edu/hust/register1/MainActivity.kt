@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this, "Confirm agree Terms of Use..", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
-            Toast.makeText(this, "Successful!", Toast.LENGTH_SHORT)
+            Toast.makeText(this, "Successful!", Toast.LENGTH_SHORT).show();
         })
     }
 }
